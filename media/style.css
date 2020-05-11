@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFF;
+  font-family: 'Raleway', sans-serif;
+}
+
+.responsiveContent{
+  margin-left:auto;
+  margin-right: auto;
+  max-width: 980px;
+}
+
+@media only screen and (max-width: 200px) {
+  .head {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .head {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .head {
+    height: 100px;
+  }
+}
+/*
+  --------TOP OF DOCUMENT---------
+*/
+header {
+  background-color: coral;
+  height: 350px;
+}
+
+nav li {
+  float: left;
+}
+
+nav a{
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  color: rgb(192,93,79);
+  text-decoration: none;
+}
+
+nav a:hover{
+  color:lime;
+}
+
+nav ul{
+  background-color: #333;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+/*
+  --------ABOUT US DOCUMENT---------
+*/
+.logo {
+  max-width: 900px;
+  height: auto;
+}
+
+.center {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+
+.aboutUs{
+  position: relative;
+  margin: 0 auto;
+  top: 50px;
+  padding: 0 16px;
+}
+.aboutUs h2{
+  opacity: 70%;
+  text-align: center;
+}
+
+.aboutUs p{
+  opacity: 60%;
+  text-align: justify;
+  padding: 64px;
+}
+
+/*
+  --------SERVICES DOCUMENT---------
+*/
+.services {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 16px;
+    top: 50px;
+}
+
+.services h2 {
+  opacity: 70%;
+  text-align: center;
+}
+
+.services p {
+  opacity: 60%;
+  text-align: justify;
+  padding: 64px;
+}
+
+table, th, td {
+  border-collapse: collapse;
+}
+
+th {
+  color: black ;
+  background-color: grey;
+  height: 50px;
+}
+
+td {
+  opacity: 60%;
+  padding: 20px;
+  text-align: center;
+}
+
+/*
+  --------CONTACT DOCUMENT---------
+*/
+.contact  {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 16px;
+    top: 100px;
+}
+
+address {
+  padding: 64px;
+}
+
+.contact h2 {
+  opacity: 70%;
+  text-align: center;
+}
